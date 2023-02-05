@@ -25,6 +25,10 @@ html_static_path = ["_static"]
 templates_path = ["_templates"]
 exclude_patterns = []
 
+# internationalize
+locale_dirs = ['locale/']
+gettext_compact = False
+
 # theme setting for sphinx-rtd-theme
 if html_theme == "sphinx_rtd":
     html_theme_options = {

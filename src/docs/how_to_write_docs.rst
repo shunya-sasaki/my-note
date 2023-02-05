@@ -145,3 +145,50 @@ In the following, I wrote the detail of the 5th step.
 5. After setting up, your GitHub Pages site is built
    and the URL and the "Visit site" button are displayed on the top of the setting page.
    Access your site and check it!
+
+
+Document Internationalization
+-----------------------------
+
+Internationalize the document according to the official Sphinx method.
+
+At first, install "sphinx-intl" package with pip command.
+
+.. code-block:: shell
+
+    python -m pip install sphinx-intl
+
+Second, edit conf.py to add settings.
+
+.. code-block:: diff
+
+    + locale_dirs = ['locale/']
+    + gettext_compact = False
+
+And then, by the following command in "src/docs" generate POT files.
+POT files are outputted to the "src/docs/_build" directory.
+
+.. code-block:: shell
+
+    make gettext
+
+Generate PO files with the following command,
+and files are outputted to the "src/docs/locale" directory.
+
+.. code-block:: shell
+
+    sphinx-intl update -p _build/gettext -l ja
+
+Translate manually PO files. Open the PO file and add translated message after each "msgstr".
+
+After manually translation, execute the following command.
+
+.. code-block:: shell
+
+    make -e SPHINXOPTS="-D language='ja'" html
+
+If you update the document, you can update PO files with *sphinx-intl update* command.
+
+.. code-block:: shell
+
+    sphinx-intl update -p _build/gettext

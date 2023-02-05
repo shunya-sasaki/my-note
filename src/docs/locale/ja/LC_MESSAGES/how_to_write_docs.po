@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Shunya Sasaki
+# This file is distributed under the same license as the My memo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: My memo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-05 22:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../how_to_write_docs.rst:2
+msgid "How to write document with Sphinx"
+msgstr "Spinxドキュメントの作成方法"
+
+#: ../../how_to_write_docs.rst:5
+msgid "Create Python virtual environment"
+msgstr "Python仮想環境の作成"
+
+#: ../../how_to_write_docs.rst:7
+msgid ""
+"In the beginning, install the Sphinx library in your Python environment. "
+"I recommend you use a virtual environment to avoid library conflict with "
+"other projects. You can create a virtual environment with the following "
+"command."
+msgstr "はじめに、SphinxライブラリをPython環境にインストールします。他のプロジェクトとライブラリの競合を避けるために仮想環境の利用を推奨します。仮想環境は次のコマンドで作成できます。"
+
+#: ../../how_to_write_docs.rst:16
+msgid ""
+"For example, if you create a virtual environment named \"py310\" in "
+"~/.venv, you execute the following command."
+msgstr "例えば、\"py310\"という名前の仮想環境を\"~/.venv\"ディレクトリに作成する場合は次のコマンドを実行します。"
+
+#: ../../how_to_write_docs.rst:23
+msgid ""
+"To use the virtual environment, you have to activate it. You can activate"
+" the environment by the following command."
+msgstr "仮想環境を利用するためにはアクティベートする必要があります。仮想環境のアクティベートは次のコマンドで行います。"
+
+#: ../../how_to_write_docs.rst:30
+msgid ""
+"If you use Windows terminal system, use the following command instead of "
+"the one above."
+msgstr "もしWindowsのコマンドプロンプトを利用している場合は上記の代わりに次のコマンドを実行してください。"
+
+#: ../../how_to_write_docs.rst:36
+msgid ""
+"When you succeed to activate your virtual environment, the environment "
+"name is displayed at before of your terminal line."
+msgstr "仮想環境のアクティベートが正しく行われると、コマンド行の先頭に仮想環境名が表示されるようになります。"
+
+#: ../../how_to_write_docs.rst:44
+msgid "Install Sphinx"
+msgstr "Sphinxのインストール"
+
+#: ../../how_to_write_docs.rst:46
+msgid ""
+"You can install Sphinx to your python environment by using the following "
+"command."
+msgstr "Sphinxは次のコマンドでインストールできます。"
+
+#: ../../how_to_write_docs.rst:52
+msgid ""
+"There are many third-party extensions for Sphinx and to use them you have"
+" to install library packages. Extensions include themes that change the "
+"look and feel of the document, flowcharting tools, and more. For example,"
+" you can install \"sphinx-material\" theme which is used for this "
+"document by the following command."
+msgstr ""
+"Sphinxのサードパティの拡張機能は色々あり、それらを使用するにはライブラリパッケージをインストールする必要があります。拡張機能はドキュメントの見た目を変化させるテーマやフローチャート作成ツールなどがあります。例えば、このドキュメントでも使用している"
+"\"sphinx-material\"というテーマをインストールするには次のコマンドを実行します。"
+
+#: ../../how_to_write_docs.rst:62
+msgid "Create project directory"
+msgstr ""
+"プロジェクトディレクトリの作成"
+
+#: ../../how_to_write_docs.rst:64
+msgid "First, create directories with the following configuration."
+msgstr ""
+"はじめに、次の構成のディレクトリを作成してください。"
+
+#: ../../how_to_write_docs.rst:71
+msgid ""
+"In \"src\" directory, execute the following command, and a Sphinx project"
+" directory named \"docs\" is created."
+msgstr ""
+"\"src\"ディレクトリで次のコマンドを実行すると\"docs\"というSphinxのプロジェクトディレクトリを作成できます。"
+
+#: ../../how_to_write_docs.rst:78
+msgid "Now, your project directory configuration becomes as the following."
+msgstr ""
+"ここで、プロジェクトディレクトリは以下のような構成になっています。"
+
+#: ../../how_to_write_docs.rst:95
+msgid "Build the first document"
+msgstr ""
+"最初のドキュメントのビルド"
+
+#: ../../how_to_write_docs.rst:97
+msgid ""
+"In this section, you build the HTML document. Output the document files "
+"to the \"docs\" directory in directly under the project directory for "
+"uploading to Github Pages."
+msgstr ""
+"このセクションではHTMLドキュメントを作成します。ドキュメントファイルは"
+"GitHub Pagesにアップロードできるように、"
+"プロジェクトディレクトリ直下の\"docs\"に出力します。"
+
+#: ../../how_to_write_docs.rst:100
+msgid ""
+"Edit Makefile to add a copy process that copies document files to “docs” "
+"in the project root."
+msgstr ""
+"Makefileを編集して\"docs\"ディレクトリにドキュメントファイルをコピーする処理を追加します。"
+
+#: ../../how_to_write_docs.rst:113
+msgid ""
+"Let's execute the following command in \"src/docs\", the HTML document "
+"files are outputted to \"src/docs/_build/html\" directory and \"docs\" "
+"directory."
+msgstr ""
+"\"src/docs\"ディレクトリで次のコマンドを実行しましょう。"
+"\"src/docs/_build/html\"ディレクトリと\"docs\"ディレクトリにHTMLドキュメントファイルが出力されます。"
+
+#: ../../how_to_write_docs.rst:120
+msgid ""
+"After outputting the document files, open the \"index.html\" in the "
+"output directory with your web browser such as Google Chrome."
+msgstr ""
+"ドキュメントファイルの出力後、出力ディレクトリにある\"index.html\"をGoogle Chromeなどの"
+"Webブラウザで開きましょう。"
+
+#: ../../how_to_write_docs.rst:124
+msgid "Publish the document on GitHub Pages"
+msgstr ""
+"GitHub Pagesでのドキュメント公開"
+
+#: ../../how_to_write_docs.rst:126
+msgid ""
+"You can publish your document easily by using GitHub Pages. To publish "
+"your documents on GitHub Pages, conduct the next 5 steps."
+msgstr ""
+"GitHub Pagesサービスを使えば簡単にドキュメントを公開できます。"
+"ドキュメントの公開は次の5ステップで行えます。"
+
+#: ../../how_to_write_docs.rst:129
+msgid "Create a project repository on GitHub."
+msgstr ""
+"GitHubにプロジェクトリポジトリを作成する。"
+
+#: ../../how_to_write_docs.rst:130
+msgid "Build the document files on \"docs\"."
+msgstr ""
+"\"docs\"ディレクトリにドキュメントファイルをビルドする。"
+
+#: ../../how_to_write_docs.rst:131
+msgid "Stage \"docs\" to changes, and commit."
+msgstr ""
+"\"docs\"ディレクトリをステージングして、コミットする。"
+
+#: ../../how_to_write_docs.rst:132
+msgid "Push to the remote GitHub repository."
+msgstr ""
+"GitHubのリモートリポジトリにプッシュする。"
+
+#: ../../how_to_write_docs.rst:133
+msgid "Configure your GitHub Pages setting."
+msgstr ""
+"GitHub Pagesの設定を変更する。"
+
+#: ../../how_to_write_docs.rst:137
+msgid "Configure GitHub Pages setting"
+msgstr ""
+"GitHub Pagesの設定"
+
+#: ../../how_to_write_docs.rst:139
+msgid "In the following, I wrote the detail of the 5th step."
+msgstr ""
+"以下に、5ステップ目の操作の詳細を記載します。"
+
+#: ../../how_to_write_docs.rst:141
+msgid "Access your project repository on GitHub, and open \"settings\"."
+msgstr ""
+"GitHubのプロジェクトリポジトリのページにアクセスして\"settings\"を開く。"
+
+#: ../../how_to_write_docs.rst:142
+msgid ""
+"From the sidebar menu, you select \"Pages\" in the \"Code and "
+"automation\" section."
+msgstr ""
+"サイドバーメニューから\"Code and automation\"の\"Pages\"を選択する。"
+
+#: ../../how_to_write_docs.rst:143
+msgid ""
+"In the \"Branch\" part on the \"Build and deployment\" section, set the "
+"branch to \"main\" and the folder to \"/docs\"."
+msgstr ""
+"\"Build and deployment\"セクションの\"Branch\"で、branchを\"main\"に、"
+"folderを\"/docs\"に変更する。"
+
+#: ../../how_to_write_docs.rst:144
+msgid "After setting the branch and folder, push the save button."
+msgstr ""
+"branchとfolderの設定後にsaveボタンを押して変更を反映する。"
+
+#: ../../how_to_write_docs.rst:145
+msgid ""
+"After setting up, your GitHub Pages site is built and the URL and the "
+"\"Visit site\" button are displayed on the top of the setting page. "
+"Access your site and check it!"
+msgstr ""
+"設定後、GitHub Pagesのサイトがビルドされ、URLと\"Visit site\"ボタンが設定ページの"
+"上部に表示される。"
+"アクセスして確認してみましょう!"
+
+#: ../../how_to_write_docs.rst:151
+msgid "Document Internationalization"
+msgstr ""
+"ドキュメントの国際化"
+
+#: ../../how_to_write_docs.rst:153
+msgid "Internationalize the document according to the official Sphinx method."
+msgstr ""
+"ドキュメントをSphinx公式のとおりに国際化します。"
+
+#: ../../how_to_write_docs.rst:155
+msgid "At first, install \"sphinx-intl\" package with pip command."
+msgstr ""
+"はじめに、\"sphinx-intl\"パッケージをpipコマンドでインストールします。"
+
+#: ../../how_to_write_docs.rst:161
+msgid "Second, edit conf.py to add settings."
+msgstr ""
+"次に、conf.pyを編集して設定を追加します。"
+
+#: ../../how_to_write_docs.rst:168
+msgid ""
+"And then, by the following command in \"src/docs\" generate POT files. "
+"POT files are outputted to the \"src/docs/_build\" directory."
+msgstr ""
+"そして\"src/docs\"ディレクトリで次のコマンドを実行してPOTファイルを作成します。"
+"POTファイルは\"src/docs/build\"ディレクトリに出力されます。"
+
+#: ../../how_to_write_docs.rst:175
+msgid ""
+"Generate PO files with the following command, and files are outputted to "
+"the \"src/docs/locale\" directory."
+msgstr ""
+"POファイルを次のコマンドで作成します。POファイルは\"src/docs/locale\"に出力されます。"
+
+#: ../../how_to_write_docs.rst:182
+msgid ""
+"Translate manually PO files. Open the PO file and add translated message "
+"after each \"msgstr\"."
+msgstr ""
+"POファイルは手作業で翻訳します。POファイルを開き、各\"msgstr\"の後に翻訳したメッセージを追加します。"
+
+#: ../../how_to_write_docs.rst:184
+msgid "After manually translation, execute the following command."
+msgstr ""
+"手作業での翻訳後、次のコマンドを実行してください。"
+
+#: ../../how_to_write_docs.rst:190
+msgid ""
+"If you update the document, you can update PO files with *sphinx-intl "
+"update* command."
+msgstr ""
+"もしドキュメントを更新したら、*sphinx-itl update* コマンドでPOファイルを更新できます。"
+
+#~ msgid "At first, edit conf.py to add settings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "And next, by the following command "
+#~ "in \"src/docs\" generate POT files. POT"
+#~ " files are outputted to the "
+#~ "\"src/docs/_build\" directory."
+#~ msgstr ""
+

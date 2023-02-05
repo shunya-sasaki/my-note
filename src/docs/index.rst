@@ -13,6 +13,12 @@ Welcome to My Memo's documentation!
    how_to_write_docs
 
 
+Language support
+
+* `English <https://shunya-sasaki.github.io/my-note/index.html>`_
+* `Japanese <https://shunya-sasaki.github.io/my-note/ja/index.html>`_
+
+
 Indices and tables
 ==================
 
