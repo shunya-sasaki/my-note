@@ -105,6 +105,7 @@ Edit Makefile to add a copy process that copies document files to “docs” in 
     +     @$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
     +    if [ -e ../../docs ]; then rm -rf ../../docs; fi
     +    cp -r ./_build/html ../../docs
+    +    touch ../../docs/.nojekyll
 
     %: Makefile
         @$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

@@ -22,6 +22,7 @@
 <span class=gi >+     @$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)</span><span class=w ></span>
 <span class=gi >+    if [ -e ../../docs ]; then rm -rf ../../docs; fi</span><span class=w ></span>
 <span class=gi >+    cp -r ./_build/html ../../docs</span><span class=w ></span>
+<span class=gi >+    touch ../../docs/.nojekyll</span><span class=w ></span>
 
 <span class=w >%: Makefile</span>
 <span class=w > </span>   @$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)<span class=w ></span>

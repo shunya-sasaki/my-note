@@ -10,7 +10,7 @@ Sphinx is an open-source library of Python to generate documents.
 
 The output documents are published on the following GitHub Pages.
 
-TBA
+https://shunya-sasaki.github.io/my-note/
 
 ## Author
 
