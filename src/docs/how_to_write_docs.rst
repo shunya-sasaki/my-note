@@ -118,3 +118,30 @@ the HTML document files are outputted to "src/docs/_build/html" directory and "d
     make html
 
 After outputting the document files, open the "index.html" in the output directory with your web browser such as Google Chrome.
+
+
+Publish the document on GitHub Pages
+------------------------------------
+
+You can publish your document easily by using GitHub Pages.
+To publish your documents on GitHub Pages, conduct the next 5 steps.
+
+1. Create a project repository on GitHub.
+2. Build the document files on "docs".
+3. Stage "docs" to changes, and commit.
+4. Push to the remote GitHub repository.
+5. Configure your GitHub Pages setting.
+
+
+Configure GitHub Pages setting
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In the following, I wrote the detail of the 5th step.
+
+1. Access your project repository on GitHub, and open "settings".
+2. From the sidebar menu, you select "Pages" in the "Code and automation" section.
+3. In the "Branch" part on the "Build and deployment" section, set the branch to "main" and the folder to "/docs".
+4. After setting the branch and folder, push the save button.
+5. After setting up, your GitHub Pages site is built
+   and the URL and the "Visit site" button are displayed on the top of the setting page.
+   Access your site and check it!
