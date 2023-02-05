@@ -1,0 +1,119 @@
+How to write document with Sphinx
+=================================
+
+Create Python virtual environment
+---------------------------------
+
+In the beginning, install the Sphinx library in your Python environment.
+I recommend you use a virtual environment to avoid library conflict with 
+other projects.
+You can create a virtual environment with the following command.
+
+.. code-block:: shell
+
+    python -m venv YOUR_VIRTUAL_ENVIRONMENT_PATH
+
+For example, if you create a virtual environment named "py310" in ~/.venv,
+you execute the following command.
+
+.. code-block::  shell
+
+    python -m venv ~/.venv/py310
+
+To use the virtual environment, you have to activate it.
+You can activate the environment by the following command.
+
+.. code-block:: shell
+
+    source ~/.venv/py310/bin/activate
+
+If you use Windows terminal system, use the following command instead of the one above.
+
+.. code-block:: bat
+
+    ~/.venv/py310/Scripts/activate
+
+When you succeed to activate your virtual environment, the environment name is displayed at before of your terminal line.
+
+.. code-block:: shell-session
+
+    (py310) shun@MacBook-Pro mynote % 
+
+
+Install Sphinx
+--------------
+
+You can install Sphinx to your python environment by using the following command.
+
+.. code-block:: shell
+
+    python -m pip install sphinx
+
+There are many third-party extensions for Sphinx and to use them you have to install library packages.
+Extensions include themes that change the look and feel of the document, flowcharting tools, and more.
+For example, you can install "sphinx-material" theme which is used for this document by the following command.
+
+.. code-block:: shell
+
+    python -m pip install sphinx-material
+
+
+Create project directory
+------------------------
+
+First, create directories with the following configuration.
+
+::
+
+    PROJECT_ROOT
+    `- src
+
+In "src" directory, execute the following command,
+and a Sphinx project directory named "docs" is created.
+
+.. code-block:: shell
+
+    sphinx-quickstart -q -p PROJECT_NAME -a AUTHOR_NAME ./docs
+
+Now, your project directory configuration becomes as the following.
+
+::
+
+    PROJECT_ROOT
+    `- src
+       `- docs
+          |- _build
+          |- _static
+          |- _templates
+          |- Makefile
+          |- make.bat
+          |- conf.py
+          `- index.rst
+
+
+Build the first document
+------------------------
+
+In this section, you build the HTML document.
+Output the document files to the "docs" directory in directly under the project directory for uploading to Github Pages.
+
+Edit Makefile to add a copy process that copies document files to “docs” in the project root.
+
+.. code-block:: diff
+
+    + html: Makefile
+    +     @$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+    +    if [ -e ../../docs ]; then rm -rf ../../docs; fi
+    +    cp -r ./_build/html ../../docs
+
+    %: Makefile
+        @$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+Let's execute the following command in "src/docs",
+the HTML document files are outputted to "src/docs/_build/html" directory and "docs" directory.
+
+.. code-block:: shell
+
+    make html
+
+After outputting the document files, open the "index.html" in the output directory with your web browser such as Google Chrome.
