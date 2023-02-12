@@ -11,6 +11,9 @@ Welcome to My Memo's documentation!
    :caption: Contents:
 
    how_to_write_docs
+   rust_introduction
+   build_pypackage_w_rust
+
 
 
 Language support

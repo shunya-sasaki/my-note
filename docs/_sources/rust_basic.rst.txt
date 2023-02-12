@@ -1,0 +1,12 @@
+Introduction to Rust
+====================
+
+Install Rust
+------------
+
+Install Rust by the following comand, if you use MacOSX or Linux.
+
+.. code-block:: shell
+
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
