@@ -1,0 +1,11 @@
+@import url("theme.css");
+.md-typeset pre {
+  color: #ffffff;
+}
+.md-typeset pre > code {
+  color: white;
+}
+
+.codehilite .gi, .highlight .gi {
+    background-color: transparent;
+}

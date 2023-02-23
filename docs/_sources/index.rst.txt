@@ -3,8 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to My Memo's documentation!
-===================================
+My Memo
+=======
+
+This is my programming note.
+
+I'm studying Python, TypeScript, Rust, and C++.
+This notebook will contain a miscellany of what I have learned.
 
 .. toctree::
    :maxdepth: 2
@@ -13,6 +18,7 @@ Welcome to My Memo's documentation!
    how_to_write_docs
    rust_introduction
    build_pypackage_w_rust
+   desktop_app_w_electron_react
 
 
 

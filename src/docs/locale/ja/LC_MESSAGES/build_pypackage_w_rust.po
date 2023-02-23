@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Shunya Sasaki
+# This file is distributed under the same license as the My memo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: My memo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 23:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../build_pypackage_w_rust.rst:2
+msgid "Build Python packages with Rust"
+msgstr "RustによるPythonパッケージのビルド"
+
+#: ../../build_pypackage_w_rust.rst:4
+msgid "You can build Python packages with Rust by the following steps."
+msgstr "次のステップによってRustによるPythonパッケージを作成できます。"
+
+#: ../../build_pypackage_w_rust.rst:6
+msgid "Create Rust project directory by cargo."
+msgstr "`cargo` コマンドによってRustプロジェクトディレクトリを作成する。"
+
+#: ../../build_pypackage_w_rust.rst:7
+msgid "Create files for setuptools-rust."
+msgstr "`setuptools-rust` の実行に必要なファイルを作成する。"
+
+#: ../../build_pypackage_w_rust.rst:8
+msgid "Create Rust source files which include functions called by Python."
+msgstr "Pythonから呼び出す関数を含むRustソースファイルを作成する。"
+
+#: ../../build_pypackage_w_rust.rst:9
+msgid "Run setuptools and build package files."
+msgstr "`setuptools` を実行してパッケージをビルドする。"
+
+#: ../../build_pypackage_w_rust.rst:11
+msgid ""
+"On this page, we create the *string-sum* package. The *string-sum* "
+"package is used in your code as follows."
+msgstr "このページでは *string-sum* というパッケージを作成します。*string-sum* は"
+"Pythonコードの中で次のように使用します。"
+
+#: ../../build_pypackage_w_rust.rst:21
+msgid "The output is the follows."
+msgstr "出力は次のようになります。"
+
+#: ../../build_pypackage_w_rust.rst:29
+msgid "Create Rust project directory"
+msgstr "Rustプロジェクトディレクトリの作成"
+
+#: ../../build_pypackage_w_rust.rst:31
+msgid "Create a Rust project directory by the following comand."
+msgstr "次のコマンドによってRustプロジェクトディレクトリを作成します。"
+
+#: ../../build_pypackage_w_rust.rst:37
+msgid "And edit Cargo.toml as follows."
+msgstr "次のように `Cargo.toml` を編集します。"
+
+#: ../../build_pypackage_w_rust.rst:63
+msgid "Create files for setuptools-rust"
+msgstr "`setuptools-rust` の設定ファイル作成"
+
+#: ../../build_pypackage_w_rust.rst:66
+msgid "setup.py"
+msgstr ""
+
+#: ../../build_pypackage_w_rust.rst:85
+msgid "pyproject.toml"
+msgstr ""
+
+#: ../../build_pypackage_w_rust.rst:94
+msgid "MANIFEST.in"
+msgstr ""
+
+#: ../../build_pypackage_w_rust.rst:103
+msgid "Rust source for python modules"
+msgstr ""
+
+#: ../../build_pypackage_w_rust.rst:125
+msgid "Build Python package with the python build module"
+msgstr "Pythonの  `build` モジュールによるPythonパッケージのビルド"
+
+#: ../../build_pypackage_w_rust.rst:127
+msgid "So far, the directory configurations will be as follows."
+msgstr "これまでの作業で、フォルダ構成は次のようになっているはずです。"
+
+#: ../../build_pypackage_w_rust.rst:141
+msgid ""
+"All that remain to build a python package is to execute the following "
+"command."
+msgstr "残りの作業は、次のコマンドによってPythonパッケージをビルドするだけです。"
+

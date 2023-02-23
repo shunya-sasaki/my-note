@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: My memo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-05 22:27+0900\n"
+"POT-Creation-Date: 2023-02-23 23:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -19,41 +19,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../../index.rst:9
+#: ../../index.rst:14
 msgid "Contents:"
 msgstr ""
 
 #: ../../index.rst:7
-msgid "Welcome to My Memo's documentation!"
-msgstr ""
+msgid "My Memo"
+msgstr "My Memo"
 
-#: ../../index.rst:16
+#: ../../index.rst:9
+msgid "This is my programming note."
+msgstr "これは私のプログラミングに関するメモ書きです。"
+
+#: ../../index.rst:11
+msgid ""
+"I'm studying Python, TypeScript, Rust, and C++. This notebook will "
+"contain a miscellany of what I have learned."
+msgstr "私はPython, TypeScript, Rust, C++を勉強中で、"
+"このノートには学んだことを雑多にまとめていくつもりです。"
+
+#: ../../index.rst:25
 msgid "Language support"
-msgstr ""
+msgstr "言語対応"
 
-#: ../../index.rst:18
+#: ../../index.rst:27
+#, fuzzy
+msgid "`English <https://shunya-sasaki.github.io/my-note/index.html>`_"
+msgstr ""
+"Language support `English <https://shunya-sasaki.github.io/my-"
+"note/index.html>`_"
+
+#: ../../index.rst:28
 #, fuzzy
 msgid "`Japanese <https://shunya-sasaki.github.io/my-note/ja/index.html>`_"
 msgstr ""
 "Language support `English <https://shunya-sasaki.github.io/my-"
 "note/index.html>`_"
 
-#: ../../index.rst:22
+#: ../../index.rst:32
 msgid "Indices and tables"
 msgstr ""
 
-#: ../../index.rst:24
+#: ../../index.rst:34
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../index.rst:25
+#: ../../index.rst:35
 msgid ":ref:`modindex`"
 msgstr ""
 
-#: ../../index.rst:26
+#: ../../index.rst:36
 msgid ":ref:`search`"
 msgstr ""
 
 #~ msgid "`日本語版 <https://shunya-sasaki.github.io/my-note/ja/index.html>`_"
+#~ msgstr ""
+
+#~ msgid "Welcome to My Memo's documentation!"
 #~ msgstr ""
 

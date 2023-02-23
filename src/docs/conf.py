@@ -24,6 +24,9 @@ html_theme = "sphinx_material"
 html_static_path = ["_static"]
 templates_path = ["_templates"]
 exclude_patterns = []
+pygments_style = "monokai"
+pygments_dark_style = "monokai"
+html_style = 'custom.css'
 
 # internationalize
 locale_dirs = ['locale/']

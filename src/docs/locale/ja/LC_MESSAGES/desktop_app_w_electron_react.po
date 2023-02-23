@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Shunya Sasaki
+# This file is distributed under the same license as the My memo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: My memo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 23:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../desktop_app_w_electron_react.rst:2
+msgid "Build desktop app with electron and react"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:5
+msgid "Setup"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:8
+msgid "Create a project folder"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:14
+msgid "The configuration of the project directory created is the following."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:30
+msgid "Install Recoil"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:32
+msgid ""
+"*Recoil* is a state management library for React. To install the latest "
+"stable version, run the following command."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:41
+msgid "Install tailwindcss"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:43
+msgid "Run the following command in the project folder."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:49
+msgid ""
+"After installing tailwindcss modules, execute the following command which"
+" creates config files for tailwindcss."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:55
+msgid "Edit *tailwindcss.config.js* as the followings."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:57
+msgid "tailwindcss.config.js"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:73
+msgid "Add the followings to *src/index.css*, which activates tailwindcss."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:75
+msgid "src/index.css"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:84
+msgid "Install axious"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:86
+msgid "Install axious by the following command."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:94
+msgid "Install electron"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:96
+msgid "Run the following command in the PROJECT_APP_NAME directory."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:102
+msgid "Modify *package.json*."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:121
+msgid ""
+"Crate *electron* directory and files in the project root. The "
+"configuration is the following."
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:131
+msgid "electron/tsconfig.json"
+msgstr ""
+
+#: ../../desktop_app_w_electron_react.rst:145
+msgid "main.ts"
+msgstr ""
+
