@@ -20,6 +20,12 @@ htmlbuild: html html_ja
 	cp -r ./_build/html ../../docs
 	touch ../../docs/.nojekyll
 
+gettext:
+	@$(SPHINXBUILD) -M gettext "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	sphinx-intl update -p ${BUILDDIR}/gettext
+
+
+
 html_%: Makefile
 	$(eval SPHINXOPTS := $(SPHINXOPTS) -D language='ja')
 	echo $(SPHINXOPTS)

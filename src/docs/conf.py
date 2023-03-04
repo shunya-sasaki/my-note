@@ -59,7 +59,7 @@ elif html_theme == "sphinx_material":
         # Set the repo location to get a badge with stats
         "repo_url": "https://github.com/shunya-sasaki/my-note",
         "repo_name": project,
-        "globaltoc_depth": 4,
+        "globaltoc_depth": 2,
         "globaltoc_collapse": False,
         "globaltoc_includehidden": False,
     }
@@ -72,7 +72,7 @@ mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 mathjax3_config = {"chtml": {"displayAlign": "left"}}
 mermaid_init_js = (
     "mermaid.initialize({ startOnLoad: true,"
-    + "'theme': 'base' "
+    + "'theme': 'base', "
     + "'flowchart': {'curve': 'linear'}, "
     + "'themeVariables': {'primaryColor': '#82A0AA', "
     + " 'primaryTextColor': '#ffffff', "

@@ -15,10 +15,9 @@ This notebook will contain a miscellany of what I have learned.
    :maxdepth: 2
    :caption: Contents:
 
-   how_to_write_docs
-   rust_introduction
-   build_pypackage_w_rust
-   desktop_app_w_electron_react
+   python/index
+   rust/index
+   typescript/index
 
 
 

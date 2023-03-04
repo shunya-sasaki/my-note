@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Shunya Sasaki
+# This file is distributed under the same license as the My memo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: My memo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-04 17:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../typescript/recoil_introduction.rst:2
+msgid "Introduction to Recoil"
+msgstr "Recoil入門"
+
+#: ../../typescript/recoil_introduction.rst:4
+msgid "*Recoil* is a state management library for React."
+msgstr "*Recoil* はReactの状態管理をするライブラリです。"
+
+#: ../../typescript/recoil_introduction.rst:8
+msgid "Install Recoil"
+msgstr "Recoilの`インストール"
+
+#: ../../typescript/recoil_introduction.rst:10
+msgid "To install the latest stable version, run the following command."
+msgstr "最新の安定版をインストールするには次のコマンドを実行してください。"
+
+#: ../../typescript/recoil_introduction.rst:17
+msgid "State management with Recoil"
+msgstr "Recoilによる状態管理"
+
+#: ../../typescript/recoil_introduction.rst:19
+msgid "The following steps are needed to management states."
+msgstr "状態管理をするためには次のステップが必要になります。"
+
+#: ../../typescript/recoil_introduction.rst:21
+msgid "Put `Recoil Root` to your root component."
+msgstr "ルートコンポーネントを `Recoil Root` で囲んでください。"
+
+#: ../../typescript/recoil_introduction.rst:22
+msgid "Create `atom` files."
+msgstr "`atom` ファイルを作成します"
+
+#: ../../typescript/recoil_introduction.rst:23
+#, fuzzy
+msgid "Put 'useRecoilState' to your component files."
+msgstr "コンポーネントの定義ファイルに `useRecoilState` を追加します。"
+
+#: ../../typescript/recoil_introduction.rst:26
+msgid "Recoil Root"
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:28
+msgid "Edit `src/App.tsx`, add `Recoil Root` as the followings."
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:30
+msgid "src/App.tsx"
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:46
+msgid "Atom File"
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:48
+msgid "Create `atom` file."
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:50
+msgid "src/atoms/atomMode.ts"
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:62
+msgid "State management hooks"
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:64
+msgid "Use `useRecoilState` as like `useState`. A exmaple is the following."
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:88
+msgid "Read only / Write only hooks"
+msgstr ""
+
+#: ../../typescript/recoil_introduction.rst:90
+msgid ""
+"Use `useRecoilValue` if you only read the state value. On the other hand,"
+" use 'useSetRecoilState' if you only write the state value."
+msgstr ""
+
+#~ msgid "Put 'Recoil state' to your component files."
+#~ msgstr ""
+

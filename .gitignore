@@ -2,4 +2,4 @@
 /.vscode/
 /src/docs/_build/
 /src/docs/locale/**/*.mo
-
+**/.DS_Store
